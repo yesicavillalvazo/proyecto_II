@@ -24,6 +24,11 @@
 
 
  /*--------- Fonts ----------*/
+ @font-face {
+    font-family: Eina02-Bold;
+    src: url(Eina02/Eina02-Bold.otf);
+}
+
 
 @font-face{
 
@@ -65,7 +70,15 @@
 
 
 
-  /*--------- ESTILOS NAVBAR  ----------*/
+
+
+
+ 
+
+
+
+
+  /*---------------------------------------------------- ESTILOS NAVBAR  --------------------------------------*/
 
   .site-header {
     background-color: #020F59;
@@ -75,7 +88,6 @@
  
 .contenedor-navbar{
 width: 70%;
-
 margin-left: 15%;
 
 }
@@ -120,53 +132,302 @@ border: none;
 
 }
 
-/*--------- ESTILOS FOOTER  ----------*/
+/*-----------------------------------------Estilos Tajretas--------------------------------------------------- */
 
+
+
+main {
+
+display: grid;
+grid-template-columns:45% 45%;
+grid-template-rows: 600px 100px 100px;
+grid-gap: 20px 80px;
+width: 70%;
+margin-left: 15%;
+}
+
+
+.contenedor-1{
+    border-radius: 15px;
+background-color: #F8F9FE ;
+-webkit-box-shadow: 1px 5px 4px -3px rgba(0,0,0,0.34); 
+box-shadow: 1px 5px 4px -3px rgba(0,0,0,0.34);
+
+}
+
+
+.fondo-contenedor-1 {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+   height: 60px; 
+   background: #27CDA8;
+    
+}
+
+
+.contenedor-1 .fondo-contenedor-1 .titulo-contenedor-1 {
+    font-family:Eina02-Bold;
+    font-size: 22px;
+    color: black;
+    margin-left: 60px;
+    padding-top: 13px;
+}
+
+
+
+
+
+.contenedor-2{
+
+background-color: #F2F3F5;
+height: 230px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 40px;
+border-radius: 15px;
+-webkit-box-shadow: 1px 5px 4px -3px rgba(0,0,0,0.34); 
+box-shadow: 1px 5px 4px -3px rgba(0,0,0,0.34);
+
+}
+
+
+.contenedor-2 h3{
+
+    font-family:Eina02-Bold;
+    font-size: 22px;
+    color: black;
+
+}
+
+
+.boton-contenedor-2{
+    background-color: #131AF2;
+    color: white;
+    border-radius: 42px;
+    padding: 6px 30px;
+    width: 24%;
+    text-align: center;
+
+}
+
+
+.contenedor-3{
+background-color: white;
+border-radius: 15px;
+-webkit-box-shadow: 1px 5px 4px -3px rgba(0,0,0,0.34); 
+box-shadow: 1px 5px 4px -3px rgba(0,0,0,0.34);
+
+
+}
+
+
+.fondo-contenedor-3{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #FC8D52;
+    height: 30px; 
+}
+
+
+
+
+.contenedor-3 .texto-contenedor-3 .titulo-contenedor-1 {
+
+    font-family: Eina02-Bold;
+    font-size: 15px;
+    color: black;
+    margin-left: 60px;
+    padding-top: 13px;
+}
+
+
+
+.contenedor-4 {
+
+background-color: white;
+-webkit-box-shadow: 1px 5px 4px -3px rgba(0,0,0,0.34); 
+box-shadow: 1px 5px 4px -3px rgba(0,0,0,0.34);
+
+margin-top: -320px;
+height: 900px;
+}
+
+
+.fondo-contenedor-4 {
+
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #030F59;
+    height: 60px; 
+    color: white;
+    font-family: Eina02-Bold;
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-around;
+    
+
+}
+
+
+
+.contenedor-4 .fondo-contenedor-4 .ordenar{
+    font-family: Eina02-Regular;
+    font-size: 13px;
+    background-color: white;
+    color: black;
+    border-radius: 42px;
+    height: 30px;
+    width: 120px;
+    
+
+}
+
+
+
+
+
+
+.contenedor-5 {
+
+background-color: #FED730;
+
+}
+
+
+
+
+
+
+
+  /*-------------------------------------------- Acomodo de Tarjetas en diferente pantalla-------------------------*/
+
+          
+
+
+
+/*------------------------------------------------ ESTILOS FOOTER  -----------------------------------------------*/
+
+
+footer{
+
+    background-color: #020F59;
+    position:relative;
+    bottom:0;
+    width: 100%;
+    height: 400px;
+    color: white;
+
+
+ 
+ }
 
 .Contenedor-footer{
 
     border: none;
     border-bottom: 1px solid;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
+    align-items: stretch;
     width: 70%;
-    height: 250px;
+    height: 325px;
     margin-left: 15%;
-
+    margin-top: 30px;
     
 }
 
 
-
-footer{
-
-   background-color: #020F59;
-   position:absolute;
-   bottom:0;
-   width: 100%;
-   height: 300px;
-   color: white;
-   font-family: Eina02-Regular;
-   font-size: 11px;
-
-}
 
 
 .footer-logo {
-    width: 35%;
-    height: 35%;
+    width: 40%;
+    height: 40%;
+    margin-top: 50px;
 
 }
 
+
+.Logo-pie{ 
+    font-family: Eina02-Regular;
+    font-size: 10px;
+
+
+}
+
+h5{
+
+    font-family: Eina02-Bold;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+
+ul{
+
+    margin-right: 60px;
+}
+
 ul.Producto {
+    font-family: Eina02-Regular;
+    font-size: 11px;
     list-style-type: none;
-   
-    
+    margin-top:38px;
+
+  
 }
 
 
 ul.Legal{
+    font-family: Eina02-Regular;
+   font-size: 11px;
     list-style-type: none;
+    margin-top: 38px;
 
+}
+
+.newsletter{
+    font-family: Eina02-Bold;
+    font-size: 18px;
+    margin-top: 40px;
+    
+}
+
+
+.div-form{
+
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+
+.form-control{
+    
+
+    background-color: #052582;
+    color: white;
+    border-top-left-radius: 21px;
+    border-bottom-left-radius: 21px;
+    padding: 6px 15px;
+    border: none;
+    margin-top: 8px;
+    outline: none;
+    
+    
+}
+
+.form-control-submit{
+  
+    background-color: #052582;
+    color: white;
+    border-top-right-radius: 21px;
+    border-bottom-right-radius: 21px;
+
+    padding: 6px 15px;
+    border: none;
+    margin-top: 8px;
+    outline: none;
+   
 }
 

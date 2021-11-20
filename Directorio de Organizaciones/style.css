@@ -24,62 +24,54 @@
 
 
  /*--------- Fonts ----------*/
-
+ @font-face {
+    font-family: Eina02-Bold;
+    src: url(Eina02/Eina02-Bold.otf);
+}
 @font-face{
 
     font-family: Eina02-Regular;
     src: url(Eina02/Eina02-Regular.otf)
 
 }
-
 @font-face {
     font-family: Eina02-Light;
     src: url(Eina02/Eina02-Light.otf);
 }
-
 @font-face {
     font-family: Stolzl_Bold;
     src: url(Stolzl/Stolzl_Bold.otf);
 }
-
 @font-face {
     font-family: Stolzl_Medium;
     src: url(Stolzl/Stolzl_Medium.otf);
 }
-
-
 @font-face {
     font-family: Stolzl_Book;
     src: url(Stolzl/Stolzl_Book.otf);
 }
-
 @font-face {
     font-family: Stolzl_Regular;
     src: url(Stolzl/Stolzl_Regular.otf);
 }
-
 @font-face {
     font-family: Stolzl_Light;
     src: url(Stolzl/Stolzl_Light.otf);
 }
 
 
-
-  /*--------- ESTILOS NAVBAR  ----------*/
+  /*---------------------------------------------------- ESTILOS NAVBAR  --------------------------------------*/
 
   .site-header {
     background-color: #020F59;
     padding: 10px;
 
 }
- 
 .contenedor-navbar{
 width: 70%;
-
 margin-left: 15%;
 
 }
-
 nav{
 display: flex;
 justify-content:space-between;
@@ -92,9 +84,6 @@ align-items: center;
     width: 40%;
     height: 40%;
 }
-
-
-
 .boton-inicio {
     
     background-color: #052582;
@@ -108,7 +97,6 @@ align-items: center;
 
     background-color: #131AF2;
 }
-
 button{
 
 font-family:Stolzl_Book ;
@@ -119,54 +107,341 @@ border: none;
 
 
 }
+  /*---------------------------------------------------- ESTILOS HERO SECTION  --------------------------------------*/
+.wrapper {
 
-/*--------- ESTILOS FOOTER  ----------*/
+
+background-color: #020F59; 
+margin-top: -10px;
+padding-bottom: 35px;
+
+}
+.container{
+
+width: 70%;
+margin: 0 auto;
+text-align: center;
+
+}
+.Imagen-HeroSection img{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    
+
+    }
+.Contenedor-Tarjeta {
+
+    position: relative;
+    bottom: 60px;
+    
+    border-radius: 15px;
+    background-color: #F8F9FE ;
+    -webkit-box-shadow: 1px 5px 4px -3px rgba(0,0,0,0.34); 
+    box-shadow: 1px 5px 4px -3px rgba(0,0,0,0.34);
+    
+}
+.Border-gradient{
+
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 25px; 
+    background: rgb(15,34,242);
+    background: linear-gradient(90deg, rgba(15,34,242,1) 0%, rgba(255,204,112,1) 100%);
+    
+
+}
+.Texto-Tarjeta-Empresa {
+    font-family: Eina02-Bold;
+    color: black;
+    margin-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: left;
+
+}
+.Texto-Aviso{
+    font-family: Eina02-Bold;
+    font-size: 22px;
+    color: white;
+    width: 80px;
+    margin: 0 auto;
+    border-bottom: 10px solid #BCED09;
+}
+.Aviso{
+    padding: 20px 20px;
+    
+   
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 1px 5px 4px -3px rgba(0,0,0,0.34); 
+    box-shadow: 1px 5px 4px -3px rgba(0,0,0,0.34);   
+}
+.Contenedor-azulito{
+    
+    border-radius: 15px;
+    background-color: #F8F9FE;
+}
+.Aviso-1{
+    font-family: Stolzl_Medium;
+    font-size: 16px;
+    border: none;
+    padding: 21px 21px 3px 21px;
+    line-height: 22px;
+    text-align: left;
+}
+.Aviso-1 p{
+    margin-bottom: 20px;
+    border-bottom: 2px solid #DBDBDF;
+    padding-bottom: 35px;
+}
+.Aviso-2{
+    
+    font-family: Stolzl_Regular;
+    font-size: 16px;
+    padding: 2px 21px 21px 21px;
+    line-height: 22px;
+    text-align: left;
+}
+/*-----------------------------------------Estilos Tajretas--------------------------------------------------- */
+
+body{
+
+    background-color: white;
+    position: relative;
+}
+main {
+
+display: grid;
+grid-template-columns:45% 45%;
+grid-template-rows: 600px 100px 100px;
+grid-gap: 20px 80px;
+width: 70%;
+margin-left: 15%;
+}
+.contenedor-1{
+    border-radius: 15px;
+background-color: #F8F9FE ;
+-webkit-box-shadow: 1px 5px 4px -3px rgba(0,0,0,0.34); 
+box-shadow: 1px 5px 4px -3px rgba(0,0,0,0.34);
+
+}
+.fondo-contenedor-1 {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+   height: 60px; 
+   background: #27CDA8;
+    
+}
+.contenedor-1 .fondo-contenedor-1 .titulo-contenedor-1 {
+    font-family:Eina02-Bold;
+    font-size: 22px;
+    color: black;
+    margin-left: 60px;
+    padding-top: 13px;
+}
+.contenedor-2{
+
+background-color: #F2F3F5;
+height: 230px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 40px;
+border-radius: 15px;
+-webkit-box-shadow: 1px 5px 4px -3px rgba(0,0,0,0.34); 
+box-shadow: 1px 5px 4px -3px rgba(0,0,0,0.34);
+
+}
+.contenedor-2 h3{
+
+    font-family:Eina02-Bold;
+    font-size: 22px;
+    color: black;
+
+}
+.boton-contenedor-2{
+    background-color: #131AF2;
+    color: white;
+    border-radius: 42px;
+    padding: 6px 30px;
+    width: 24%;
+    text-align: center;
+
+}
+.contenedor-3{
+background-color: white;
+border-radius: 15px;
+-webkit-box-shadow: 1px 5px 4px -3px rgba(0,0,0,0.34); 
+box-shadow: 1px 5px 4px -3px rgba(0,0,0,0.34);
 
 
+}
+.fondo-contenedor-3{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #FC8D52;
+    height: 30px; 
+}
+.contenedor-3 .texto-contenedor-3 .titulo-contenedor-1 {
+
+    font-family: Eina02-Bold;
+    font-size: 15px;
+    color: black;
+    margin-left: 60px;
+    padding-top: 13px;
+}
+.contenedor-4 {
+
+background-color: white;
+-webkit-box-shadow: 1px 5px 4px -3px rgba(0,0,0,0.34); 
+box-shadow: 1px 5px 4px -3px rgba(0,0,0,0.34);
+
+margin-top: -320px;
+height: 900px;
+}
+.fondo-contenedor-4 {
+
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #030F59;
+    height: 60px; 
+    color: white;
+    font-family: Eina02-Bold;
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-around;
+    
+
+}
+.contenedor-4 .fondo-contenedor-4 .ordenar{
+    font-family: Eina02-Regular;
+    font-size: 13px;
+    background-color: white;
+    color: black;
+    border-radius: 42px;
+    height: 30px;
+    width: 120px;
+    
+
+}
+.contenedor-5 {
+
+background-color: #FED730;
+
+}
+  /*-------------------------------------------- Acomodo de Tarjetas en diferente pantalla-------------------------*/
+
+          
+
+
+
+/*------------------------------------------------ ESTILOS FOOTER  -----------------------------------------------*/
+footer{
+
+    background-color: #020F59;
+    position:relative;
+    bottom:0;
+    width: 100%;
+    height: 400px;
+    color: white;
+
+
+ 
+ }
 .Contenedor-footer{
 
     border: none;
     border-bottom: 1px solid;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
+    align-items: stretch;
     width: 70%;
-    height: 250px;
+    height: 325px;
     margin-left: 15%;
-
+    margin-top: 30px;
     
 }
-
-
-
-footer{
-
-   background-color: #020F59;
-   position:absolute;
-   bottom:0;
-   width: 100%;
-   height: 300px;
-   color: white;
-   font-family: Eina02-Regular;
-   font-size: 11px;
-
-}
-
-
 .footer-logo {
-    width: 35%;
-    height: 35%;
+    width: 40%;
+    height: 40%;
+    margin-top: 50px;
 
 }
+.Logo-pie{ 
+    font-family: Eina02-Regular;
+    font-size: 10px;
 
+
+}
+h5{
+
+    font-family: Eina02-Bold;
+    font-size: 14px;
+    margin-top: 40px;
+}
+ul{
+
+    margin-right: 60px;
+}
 ul.Producto {
+    font-family: Eina02-Regular;
+    font-size: 12px;
     list-style-type: none;
-   
+    margin-top:38px;
+
+  
+}
+ul.Legal{
+    font-family: Eina02-Regular;
+   font-size: 12px;
+    list-style-type: none;
+    margin-top: 38px;
+
+}
+.newsletter{
+    font-family: Eina02-Bold;
+    font-size: 18px;
+    margin-top: 40px;
     
 }
+.div-form{
 
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+.form-control{
+    
 
-ul.Legal{
-    list-style-type: none;
+    background-color: #052582;
+    color: white;
+    border-top-left-radius: 21px;
+    border-bottom-left-radius: 21px;
+    padding: 6px 15px;
+    border: none;
+    margin-top: 8px;
+    outline: none;
+    
+    
+}
+.form-control-submit{
+  
+    background-color: #052582;
+    color: white;
+    border-top-right-radius: 21px;
+    border-bottom-right-radius: 21px;
+
+    padding: 6px 15px;
+    border: none;
+    margin-top: 8px;
+    outline: none;
+   
+}
+footer ul li{
+
+margin-bottom: 20px;
 
 }
-
